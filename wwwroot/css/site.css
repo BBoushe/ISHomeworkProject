@@ -1,0 +1,71 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#TicketPosterID {
+  max-width: 400px;
+  max-height: 400px;
+  height: auto;
+  width: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
+.card-img-overlay {
+    display: none;
+}
+
+.card:hover .card-img-overlay {
+    display: flex;
+}
+
+.card-img-top.img-shadow {
+    filter: brightness(50%);
+    transition: filter 0.5s ease-in-out;
+}
+
+    .card-img-top.img-shadow:hover {
+        filter: brightness(100%);
+    }
+
+.card-img-overlay {
+    display: none;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover .card-img-overlay {
+    display: flex;
+}
+
+.card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.2em;
+}
+
+.card-img-top {
+    filter: brightness(50%);
+    transition: filter 0.5s ease-in-out;
+}
+.card-img-top:hover {
+    filter: brightness(100%);
+}
